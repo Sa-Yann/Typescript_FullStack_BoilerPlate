@@ -7,6 +7,7 @@
         <meta http-equiv="X-UA-compatible" content="ie=edge"/> 
         <!-- info on meta tag above dedicated to IE(Internet explorer): https://stackoverflow.com/questions/6771258/what-does-meta-http-equiv-x-ua-compatible-content-ie-edge-do -->
         <link rel="stylesheet" href="./mainStyle.css"/>
+        <link rel="icon" href="data:,"/> <!-- allow to avoid the automatic favicon request , good for seo optimisation-->
     </head>
     <body>
         <h1>Typescript BoilerPlate</h1>
@@ -27,7 +28,8 @@
             <button type="submit" id="button2" class="cases">Caluclate the sum</button>
             <div id="result2" class="cases"></div>
         </div>
-        <script src="is_only.js"></script>
-        <script src="testTs.js"></script>
+        <script type="text/javascript" src="app.js"></script> <!-- always insert type="text/javascript for js type="application/typescript" for ts to avoid TEXT CONTENT mime error  -->
+        <!-- <script src="is_only.js"></script>
+        <script src="testTs.js"></script> -->
     </body>
 </html>

@@ -1,0 +1,16 @@
+{
+  "name": "Typescript_FullStack_BoilerPlate",
+  "version": "1.0.0",
+  "description": "Using Typescript in Front (TS) & Back End (NodeJs, express using TS)",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server"
+  },
+  "repository": "https://github.com/Sa-Yann/Typescript_FullStack_BoilerPlate.git",
+  "author": "Yann Leblond <49900328+Sa-Yann@users.noreply.github.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
