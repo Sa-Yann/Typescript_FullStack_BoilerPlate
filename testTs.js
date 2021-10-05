@@ -15,6 +15,8 @@ function add(num1, num2) {
 //         return num1 + num2;
 //     }
 //     return +num1 + +num2;
+//     or
+//     return new Error('wrong type of type varaible inserted')
 // };
 button1.addEventListener('click', function () {
     console.log(add(+input_1.value, +input_2.value));

@@ -1,1 +1,1 @@
-console.log('test log app.ts');
+console.log('app.ts logs');
