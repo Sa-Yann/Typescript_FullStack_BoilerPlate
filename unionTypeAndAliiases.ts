@@ -1,6 +1,6 @@
 console.log('app.ts logs');
 console.log ( 'union type examples')
-
+ // number, string, boolean ...are customs Types. Cystom types vs uniontype & alliases
 
 // function addCombine(input_1: number | string, input_2: number | String){
 //     const result = input_1 + input_2; // TS is doubting if he can concatanate a string with a number
